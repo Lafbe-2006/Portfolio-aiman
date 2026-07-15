@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lena Cho — 3D Artist & Animator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">◈</span>
+        <span class="logo-text">lena<span class="accent">.cho</span></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#portfolio" class="nav-link">Work</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-text">
+        <p class="eyebrow">// 3D artist &amp; motion designer</p>
+        <h1 class="hero-title">
+          I build worlds<br />
+          <span class="outline-text">frame by frame.</span>
+        </h1>
+        <p class="hero-desc">
+          I'm Lena — a 3D artist specializing in product visualization and character
+          animation. From clean quad topology in Maya to keyframed edits in Premiere,
+          I care about craft at every stage of the pipeline.
+        </p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">View my work</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-viewport">
+        <div class="viewport-frame">
+          <div class="viewport-label">
+            <span>viewport_persp</span>
+            <span class="rec-dot">● shaded</span>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div class="face front"></div>
+              <div class="face back"></div>
+              <div class="face right"></div>
+              <div class="face left"></div>
+              <div class="face top"></div>
+              <div class="face bottom"></div>
+            </div>
+          </div>
+          <div class="viewport-footer">
+            <span>24 fps</span>
+            <span>1:1</span>
+            <span>tris: 12,480</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-container about-grid">
+      <div class="about-image">
+        <div class="image-frame">
+          <div class="image-placeholder">LC</div>
+          <div class="frame-tag">self_portrait_v3.ma</div>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <p class="section-eyebrow">01 — About</p>
+        <h2 class="section-title">A little about my process</h2>
+        <p class="about-text">
+          I'm a final-year digital media student who fell in love with the idea that
+          a still object — a chair, a pair of headphones, a coiled cable — can be
+          built up from nothing but vertices and light. My work sits at the
+          intersection of technical modeling and expressive animation.
+        </p>
+        <p class="about-text">
+          Outside of coursework, I script my own Maya and MEL tools to speed up
+          repetitive tasks, and I edit short films in Premiere Pro just to keep my
+          eye sharp for pacing and color.
+        </p>
+
+        <div class="stat-row">
+          <div class="stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">years modeling</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">40+</span>
+            <span class="stat-label">projects shipped</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">12</span>
+            <span class="stat-label">tools in the belt</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-container">
+      <p class="section-eyebrow center">02 — Skills</p>
+      <h2 class="section-title center">Tools of the trade</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-icon">◆</span>
+          <h3>Maya</h3>
+          <p>Hard-surface &amp; organic modeling, rigging basics, quad topology.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">◆</span>
+          <h3>Arnold Render</h3>
+          <p>Lambert &amp; PBR shading, three-point lighting, look-dev.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">◆</span>
+          <h3>Animation</h3>
+          <p>Walk cycles, timing &amp; spacing, graph editor curve cleanup.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">◆</span>
+          <h3>Premiere Pro</h3>
+          <p>Multi-cam editing, color correction, keyframed titles.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">◆</span>
+          <h3>Python &amp; MEL</h3>
+          <p>Scripted scene generation, pipeline tools, batch exports.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">◆</span>
+          <h3>Substance Painter</h3>
+          <p>PBR texturing, smart materials, bake &amp; export workflows.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="section-container">
+      <p class="section-eyebrow center">03 — Selected work</p>
+      <h2 class="section-title center">Recent renders</h2>
+
+      <div class="portfolio-grid">
+        <article class="project-card">
+          <div class="project-thumb thumb-1">
+            <span class="thumb-tag">product</span>
+          </div>
+          <div class="project-info">
+            <h3>NOVA Pro Headphones</h3>
+            <p>Hero product scene with studio lighting, four supporting props.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb thumb-2">
+            <span class="thumb-tag">animation</span>
+          </div>
+          <div class="project-info">
+            <h3>Groggy Walk Cycle</h3>
+            <p>20-second looping cycle with weighted, off-balance timing.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb thumb-3">
+            <span class="thumb-tag">rig test</span>
+          </div>
+          <div class="project-info">
+            <h3>Five-Beat Sequence</h3>
+            <p>Pose, walk, pause, jump, wave — a full performance test.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb thumb-4">
+            <span class="thumb-tag">edit</span>
+          </div>
+          <div class="project-info">
+            <h3>Short Film Assembly</h3>
+            <p>B-roll, color grade, and keyframed lower-thirds in Premiere.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-container contact-grid">
+      <div class="contact-info">
+        <p class="section-eyebrow">04 — Contact</p>
+        <h2 class="section-title">Let's build something</h2>
+        <p class="contact-desc">
+          Have a project in mind, or just want to talk pipelines? My inbox is open.
+        </p>
+        <ul class="contact-list">
+          <li><span>Email</span> lena.cho@studentmail.edu</li>
+          <li><span>Location</span> Kuala Lumpur, Malaysia</li>
+          <li><span>Available</span> Freelance &amp; internships</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+          <span class="error-msg" id="nameError"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          <span class="error-msg" id="emailError"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          <span class="error-msg" id="messageError"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full">Send message</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="section-container footer-inner">
+      <span>© 2026 Lena Cho. Built with HTML, CSS &amp; JavaScript.</span>
+      <button class="back-to-top" id="backToTop" aria-label="Back to top">↑ Top</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
